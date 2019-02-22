@@ -6,4 +6,5 @@ Shape files for bat geographic ranges are available from IUCN at [https://www.iu
 
 Additional large files available by request (<clifton.mckee@gmail.com>): </br>
 'mammterr.RData' </br>
+'TERRESTRIAL_MAMMALS.shp' </br>
 '2_Eurobats_strict_IBD-SAMP.trees.txt'
