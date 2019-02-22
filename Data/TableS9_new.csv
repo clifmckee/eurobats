@@ -1,0 +1,44 @@
+ectoparasite.sp,bat.sp,count,log.count,records,records.minus
+Argas vespertilionis,Pipistrellus nathusii,74,4.304065093,7,6
+Argas vespertilionis,Pipistrellus pipistrellus,162,5.087596335,32,31
+Basilia nana,Myotis bechsteinii,13,2.564949357,32,31
+Basilia nana,Myotis myotis,2,0.693147181,14,13
+Basilia nattereri,Myotis nattereri,4,1.386294361,15,14
+Cimex pipistrelli,Myotis dasycneme,295,5.686975356,5,4
+Ischnopsyllus variabilis,Eptesicus serotinus,4,1.386294361,2,1
+Ischnopsyllus variabilis,Myotis dasycneme,1,0,2,1
+Ischnopsyllus variabilis,Pipistrellus nathusii,10,2.302585093,6,5
+Ixodes ariadnae,Myotis bechsteinii,15,2.708050201,2,1
+Ixodes ariadnae,Pipistrellus pygmaeus,4,1.386294361,1,0
+Ixodes ariadnae,Plecotus auritus,1,0,3,2
+Macronyssidae sp. 4,Myotis dasycneme,11,2.397895273,1,0
+Nycteribia kolenatii,Miniopterus schreibersii,4,1.386294361,3,2
+Nycteribia kolenatii,Myotis blythii,2,0.693147181,2,1
+Nycteribia kolenatii,Myotis daubentonii,66,4.189654742,39,38
+Nycteribia kolenatii,Myotis myotis,17,2.833213344,12,11
+Nycteribia kolenatii,Rhinolophus ferrumequinum,4,1.386294361,3,2
+Nycteribia schmidlii,Miniopterus schreibersii,55,4.007333185,35,34
+Nycteribia schmidlii,Myotis blythii,1,0,8,7
+Nycteribia schmidlii,Myotis daubentonii,5,1.609437912,11,10
+Penicillidia conspicua,Miniopterus schreibersii,34,3.526360525,29,28
+Penicillidia conspicua,Myotis blythii,1,0,5,4
+Penicillidia conspicua,Myotis daubentonii,1,0,3,2
+Penicillidia dufourii,Miniopterus schreibersii,1,0,26,25
+Penicillidia dufourii,Myotis blythii,1,0,26,25
+Penicillidia dufourii,Myotis myotis,1,0,31,30
+Phthiridium biarticulatum,Myotis capaccinii,1,0,4,3
+Phthiridium biarticulatum,Rhinolophus blasii,3,1.098612289,13,12
+Phthiridium biarticulatum,Rhinolophus euryale,5,1.609437912,16,15
+Phthiridium biarticulatum,Rhinolophus ferrumequinum,1,0,33,32
+Phthiridium biarticulatum,Rhinolophus mehelyi,5,1.609437912,9,8
+Spinturnicidae sp. 2,Nyctalus noctula,4,1.386294361,1,0
+Spinturnicidae sp. 2,Pipistrellus nathusii,1,0,1,0
+Spinturnix andegavinus,Myotis bechsteinii,2,0.693147181,1,0
+Spinturnix andegavinus,Myotis dasycneme,4,1.386294361,4,3
+Spinturnix andegavinus,Myotis daubentonii,59,4.077537444,19,18
+Spinturnix andegavinus,Myotis nattereri,1,0,3,2
+Spinturnix andegavinus,Nyctalus noctula,1,0,1,0
+Spinturnix andegavinus,Pipistrellus nathusii,8,2.079441542,1,0
+Spinturnix andegavinus,Pipistrellus pipistrellus,1,0,1,0
+Spinturnix kolenatii*,Eptesicus serotinus,2,0.693147181,10,9
+Spinturnix plecotina,Plecotus auritus,24,3.17805383,19,18
