@@ -1,0 +1,541 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=439;
+	taxlabels
+	'Arg.ves_10T45'
+	'Arg.ves_197T155'
+	'Arg.ves_198T155'
+	'Arg.ves_199T155'
+	'Arg.ves_19T49'
+	'Arg.ves_1T01'
+	'Arg.ves_202T155'
+	'Arg.ves_204T155'
+	'Arg.ves_205T155'
+	'Arg.ves_206T155'
+	'Arg.ves_207T155'
+	'Arg.ves_208T155'
+	'Arg.ves_210T202'
+	'Arg.ves_211T203'
+	'Arg.ves_212T203'
+	'Arg.ves_213T203'
+	'Arg.ves_214T203'
+	'Arg.ves_215T203'
+	'Arg.ves_216T204'
+	'Arg.ves_217T205'
+	'Arg.ves_218T205'
+	'Arg.ves_219T205'
+	'Arg.ves_220T205'
+	'Arg.ves_221T205'
+	'Arg.ves_222T206'
+	'Arg.ves_223T206'
+	'Arg.ves_224T206'
+	'Arg.ves_225T207'
+	'Arg.ves_227T209'
+	'Arg.ves_228T210'
+	'Arg.ves_229T210'
+	'Arg.ves_22T60'
+	'Arg.ves_230T210'
+	'Arg.ves_231T210'
+	'Arg.ves_232T210'
+	'Arg.ves_233T210'
+	'Arg.ves_234T211'
+	'Arg.ves_240T213'
+	'Arg.ves_249TI219'
+	'Arg.ves_24T60'
+	'Arg.ves_250TI219'
+	'Arg.ves_251TI219'
+	'Arg.ves_252TI219'
+	'Arg.ves_254T220'
+	'Arg.ves_255T220'
+	'Arg.ves_256T220'
+	'Arg.ves_257T220'
+	'Arg.ves_258T220'
+	'Arg.ves_259T220'
+	'Arg.ves_25T61'
+	'Arg.ves_260T220'
+	'Arg.ves_261T220'
+	'Arg.ves_262T221'
+	'Arg.ves_263T221'
+	'Arg.ves_264T221'
+	'Arg.ves_265T222'
+	'Arg.ves_266T222'
+	'Arg.ves_267T222'
+	'Arg.ves_268T223'
+	'Arg.ves_269T223'
+	'Arg.ves_270T223'
+	'Arg.ves_271T224'
+	'Arg.ves_272T224'
+	'Arg.ves_273T225'
+	'Arg.ves_274T225'
+	'Arg.ves_2T01'
+	'Arg.ves_33T62'
+	'Arg.ves_34T63'
+	'Arg.ves_35T63'
+	'Arg.ves_36T63'
+	'Arg.ves_37T63'
+	'Arg.ves_39T63'
+	'Arg.ves_3T20'
+	'Arg.ves_40T64'
+	'Arg.ves_41T65'
+	'Arg.ves_43T66'
+	'Arg.ves_44T66'
+	'Arg.ves_45T66'
+	'Arg.ves_46T66'
+	'Arg.ves_49T66'
+	'Arg.ves_4T20'
+	'Arg.ves_52T66'
+	'Arg.ves_56T67'
+	'Arg.ves_59T67'
+	'Arg.ves_60T67'
+	'Arg.ves_63T67'
+	'Arg.ves_68T68'
+	'Arg.ves_6T27'
+	'Arg.ves_79T70'
+	'Arg.ves_7T38'
+	'Arg.ves_8T38'
+	'Arg.ves_9T38'
+	'Bas.nan_49BF173'
+	'Bas.nan_50BF174'
+	'Bas.nan_51BF175'
+	'Bas.nan_52BF175'
+	'Bas.nan_53BF176'
+	'Bas.nan_54BF177'
+	'Bas.nan_54CJ1014157'[&!color=#ff0000]
+	'Bas.nan_55BF178'
+	'Bas.nan_56BF179'
+	'Bas.nan_57BF179'
+	'Bas.nan_58BF179'
+	'Bas.nan_59BF180'
+	'Bas.nan_GT070824'[&!color=#ff0000]
+	'Bas.nan_GT090828.02'[&!color=#ff0000]
+	'Bas.nan_KDS15'
+	'Cim.pip_103BB'
+	'Cim.pip_104BB'
+	'Cim.pip_10SBB'
+	'Cim.pip_11SBB'
+	'Cim.pip_17SBB'
+	'Cim.pip_18SBB'
+	'Cim.pip_1SBB'
+	'Cim.pip_2SBB'
+	'Cim.pip_5SBB'
+	'Cim.pip_6SBB'
+	'Cim.pip_73BB'
+	'Cim.pip_74BB'
+	'Cim.pip_75BB'
+	'Cim.pip_76BB'
+	'Cim.pip_77BB'
+	'Cim.pip_78BB'
+	'Cim.pip_79BB'
+	'Cim.pip_7SBB'
+	'Cim.pip_80BB'
+	'Cim.pip_81BB'
+	'Cim.pip_82BB'
+	'Cim.pip_83BB'
+	'Cim.pip_84BB'
+	'Cim.pip_85BB'
+	'Cim.pip_86BB'
+	'Cim.pip_87BB'
+	'Cim.pip_88BB'
+	'Isc.var_10F94'
+	'Isc.var_11F96'
+	'Isc.var_12F96'
+	'Isc.var_13F96'
+	'Isc.var_14F137'
+	'Isc.var_15F140'
+	'Isc.var_1F40'
+	'Isc.var_2F85'
+	'Isc.var_3F85'
+	'Isc.var_4F86'
+	'Isc.var_5F88'
+	'Isc.var_6F89'
+	'Isc.var_7F90'
+	'Isc.var_8F91'
+	'Isc.var_9F93'
+	'Ixo.ari_12TI47'
+	'Ixo.ari_13TI47'
+	'Ixo.ari_14TI47'
+	'Ixo.ari_15TI47'
+	'Ixo.ari_16TI47'
+	'Ixo.ari_17TI47'
+	'Ixo.ari_209TI178'
+	'Ixo.ari_226TI208'
+	'Ixo.ari_241TI214'
+	'Ixo.ari_242TI214'
+	'Ixo.ari_243TI215'
+	'Ixo.ari_244TI216'
+	'Ixo.ari_245TI216'
+	'Ixo.ari_246TI217'
+	'Ixo.ari_247TI218'
+	'Ixo.ari_248TI218'
+	'Mac.sp1_117M39'
+	'Mac.sp1_55M18'
+	'Mac.sp2_60M19'
+	'Mac.sp3_192M141'
+	'Mac.sp3_231M153'
+	'Mac.sp3_25M10'
+	'Mac.sp4_199M147'
+	'Mac.sp4_200M147'
+	'Mac.sp4_206M147'
+	'Mac.sp4_215M147'
+	'Nyb.kol_101aCJ1784303'[&!color=#ff0000]
+	'Nyb.kol_105CJ1834308'[&!color=#ff0000]
+	'Nyb.kol_10BF136'
+	'Nyb.kol_11BF136'
+	'Nyb.kol_12BF136'
+	'Nyb.kol_12BF136a'
+	'Nyb.kol_14BF142'
+	'Nyb.kol_153CJ2464367'
+	'Nyb.kol_15BF144'
+	'Nyb.kol_161CJ2564376'
+	'Nyb.kol_169CJ2684388'
+	'Nyb.kol_173CJ2734392'
+	'Nyb.kol_174CJ2744393'
+	'Nyb.kol_175CJ2754394'
+	'Nyb.kol_17BF146'
+	'Nyb.kol_184aCJ2884449'
+	'Nyb.kol_1BF77'
+	'Nyb.kol_212_102082'
+	'Nyb.kol_212a_102082'
+	'Nyb.kol_212c_102082'
+	'Nyb.kol_212d_102082'
+	'Nyb.kol_21BF160'
+	'Nyb.kol_22BF161'
+	'Nyb.kol_23BF161'
+	'Nyb.kol_24BF161'
+	'Nyb.kol_25BF161'
+	'Nyb.kol_26BF161'
+	'Nyb.kol_27BF161'
+	'Nyb.kol_28BF162'
+	'Nyb.kol_31BF164'
+	'Nyb.kol_32BF164'
+	'Nyb.kol_34BF166'
+	'Nyb.kol_35BF167'
+	'Nyb.kol_36BF167'
+	'Nyb.kol_37BF168'
+	'Nyb.kol_38BF168'
+	'Nyb.kol_39BF168'
+	'Nyb.kol_3BF78'
+	'Nyb.kol_3cCJ162997'
+	'Nyb.kol_3eCJ182997'
+	'Nyb.kol_3fCJ192997'
+	'Nyb.kol_3gCJ202997'
+	'Nyb.kol_42BF169'
+	'Nyb.kol_43BF170'
+	'Nyb.kol_44BF171'
+	'Nyb.kol_45BF172'
+	'Nyb.kol_46BF172'
+	'Nyb.kol_47BF172'
+	'Nyb.kol_48CJ794152'[&!color=#ff0000]
+	'Nyb.kol_49aCJ814154'
+	'Nyb.kol_4BF79'
+	'Nyb.kol_52aCJ864156'
+	'Nyb.kol_52bCJ874156'
+	'Nyb.kol_52cCJ884156'
+	'Nyb.kol_52dCJ894156'
+	'Nyb.kol_52fCJ914156'
+	'Nyb.kol_52kCJ964156'
+	'Nyb.kol_55CJ1024158'[&!color=#ff0000]
+	'Nyb.kol_5BF130'
+	'Nyb.kol_61CJ1124165'
+	'Nyb.kol_6BF136'
+	'Nyb.kol_74CJ1294182'
+	'Nyb.kol_7BF136'
+	'Nyb.kol_88CJ1544282'
+	'Nyb.kol_88bCJ1564282'
+	'Nyb.kol_8BF136'
+	'Nyb.kol_91CJ1624286'
+	'Nyb.kol_94aCJ1664291'
+	'Nyb.kol_95CJ1674293'
+	'Nyb.kol_97aCJ1724295'
+	'Nyb.kol_97bCJ1734295'
+	'Nyb.kol_9BF136'
+	'Nyb.kol_EP048_A'
+	'Nyb.kol_EP048_B'
+	'Nyb.kol_EP066_A'
+	'Nyb.kol_EP070_A'
+	'Nyb.kol_EP099'
+	'Nyb.kol_GT090814.02.B'
+	'Nyb.kol_GT090825.11'
+	'Nyb.kol_GTHU152'[&!color=#ff0000]
+	'Nyb.kol_GTHU252_C'[&!color=#ff0000]
+	'Nyb.sch_101CJ1774303'
+	'Nyb.sch_101cCJ1804303'
+	'Nyb.sch_109CJ1864312'
+	'Nyb.sch_118CJ1964321'
+	'Nyb.sch_124CJ2074328'
+	'Nyb.sch_132aCJ2204338'
+	'Nyb.sch_138CJ2274345'
+	'Nyb.sch_141CJ2324348'
+	'Nyb.sch_142CJ2334350'
+	'Nyb.sch_145CJ2364354'
+	'Nyb.sch_148CJ2394358'
+	'Nyb.sch_149CJ2404359'
+	'Nyb.sch_150CJ2414361'
+	'Nyb.sch_151CJ2424364'
+	'Nyb.sch_155CJ2484371'
+	'Nyb.sch_162CJ2574379'
+	'Nyb.sch_165CJ2614383'
+	'Nyb.sch_171CJ2704390'
+	'Nyb.sch_178aCJ2804443'
+	'Nyb.sch_179CJ2814444'
+	'Nyb.sch_179aCJ2824444'
+	'Nyb.sch_189CJ2964452'
+	'Nyb.sch_197_101205'
+	'Nyb.sch_199_101207'
+	'Nyb.sch_199a_101207'
+	'Nyb.sch_19CJ403614'
+	'Nyb.sch_201_101209'
+	'Nyb.sch_28CJ503637'
+	'Nyb.sch_31CJ533737'
+	'Nyb.sch_34CJ563739'
+	'Nyb.sch_40aCJ633750'
+	'Nyb.sch_40bCJ643750'
+	'Nyb.sch_41CJ653751'
+	'Nyb.sch_42aCJ683753'
+	'Nyb.sch_44CJ723757'
+	'Nyb.sch_44aCJ733757'
+	'Nyb.sch_64CJ1174167'
+	'Nyb.sch_64aCJ1184167'
+	'Nyb.sch_65CJ1194168'
+	'Nyb.sch_66CJ1204169'
+	'Nyb.sch_71CJ1254174'
+	'Nyb.sch_72CJ1264175'
+	'Nyb.sch_72aCJ1274175'
+	'Nyb.sch_73CJ1284179'[&!color=#ff0000]
+	'Nyb.sch_89aCJ1604283'
+	'Nyb.sch_96CJ1704294'
+	'Nyb.sch_GT070917.02'
+	'Nyb.sch_GT080730.02'
+	'Nyb.sch_GT090713.02A'
+	'Nyb.sch_GT090713.02B'
+	'Nyb.sch_GT090808.06.2'
+	'Nyb.sch_GTHU104.2.G'
+	'Nyb.sch_GTHU105.2.B'
+	'Nyb.sch_GTHU106'
+	'Nyb.sch_GTHU119.2'
+	'Nyb.sch_GTHU119.3'
+	'Nyb.sch_GTHU517.3.A'
+	'Nyb.sch_GTHU517.3.B'
+	'Nyb.sch_GTHU517.3.E'
+	'Pen.con_100CJ1764302'
+	'Pen.con_119CJ1974321'
+	'Pen.con_119bCJ1994321'
+	'Pen.con_123aCJ2064325'
+	'Pen.con_134CJ2224339'
+	'Pen.con_135CJ2234340'
+	'Pen.con_135aCJ2244340'
+	'Pen.con_143CJ2344350'
+	'Pen.con_144CJ2354352'
+	'Pen.con_156aCJ2504371'
+	'Pen.con_159CJ2544374'
+	'Pen.con_15CJ343606'
+	'Pen.con_15aCJ353606'
+	'Pen.con_15bCJ363606'
+	'Pen.con_166CJ2624384'
+	'Pen.con_168CJ2644386'
+	'Pen.con_168aCJ2654386'
+	'Pen.con_190bCJ2994452'
+	'Pen.con_23CJ443619'
+	'Pen.con_25CJ473622'
+	'Pen.con_27CJ493636'
+	'Pen.con_29CJ513639'
+	'Pen.con_39CJ613749'
+	'Pen.con_67CJ1214169'
+	'Pen.con_GTHU460_B'
+	'Pen.duf_185aCJ2904449'
+	'Pen.duf_GT080730.01.04A'[&!color=#ff0000]
+	'Pen.duf_GTHU512'
+	'Pht.bia_117CJ1944320'
+	'Pht.bia_12CJ313594'
+	'Pht.bia_211_101490'
+	'Pht.bia_30CJ523644'
+	'Pht.bia_77CJ1334221'
+	'Pht.bia_79CJ1364223'
+	'Pht.bia_79aCJ1374223'
+	'Pht.bia_80CJ1384224'
+	'Pht.bia_80bCJ1404224'
+	'Pht.bia_80cCJ1414224'
+	'Pht.bia_81aCJ1434225'
+	'Pht.bia_82CJ1444226'
+	'Pht.bia_83cCJ1484227'
+	'Pht.bia_86CJ1514279'
+	'Pht.bia_8CJ263583'
+	'Spi.and_101S191'
+	'Spi.and_102S192'
+	'Spi.and_103S193'
+	'Spi.and_104S193'
+	'Spi.and_105S194'
+	'Spi.and_106S194'
+	'Spi.and_11S44'
+	'Spi.and_17S81'
+	'Spi.and_32S92'
+	'Spi.and_33S129'
+	'Spi.and_39S131'
+	'Spi.and_42S136'
+	'Spi.and_45S138'
+	'Spi.and_47S140'
+	'Spi.and_48S140'
+	'Spi.and_49S141'
+	'Spi.and_50S142'
+	'Spi.and_51S143'
+	'Spi.and_52S144'
+	'Spi.and_53S145'
+	'Spi.and_54S146'
+	'Spi.and_55S146'
+	'Spi.and_56S146'
+	'Spi.and_57S147'
+	'Spi.and_59S164'
+	'Spi.and_5S19'
+	'Spi.and_62S168'
+	'Spi.and_67S172'
+	'Spi.and_68S172'
+	'Spi.and_69S177'
+	'Spi.and_70S177'
+	'Spi.and_71S181'
+	'Spi.and_76S182'
+	'Spi.and_77S182'
+	'Spi.and_79S183'
+	'Spi.and_7S29'
+	'Spi.and_80S184'
+	'Spi.and_81S184'
+	'Spi.and_82S184'
+	'Spi.and_83S184'
+	'Spi.and_84S185'
+	'Spi.and_85S185'
+	'Spi.and_86S185'
+	'Spi.and_87S185'
+	'Spi.and_87S185a'
+	'Spi.and_88S185'
+	'Spi.and_89S186'
+	'Spi.and_91S187'
+	'Spi.and_92S188'
+	'Spi.and_93S188'
+	'Spi.and_94S188'
+	'Spi.and_96S191'
+	'Spi.and_99S191'
+	'Spi.kol_26S83'
+	'Spi.kol_31S86'
+	'Spi.ple_108S195'
+	'Spi.ple_109S195'
+	'Spi.ple_110S195'
+	'Spi.ple_111S195'
+	'Spi.ple_111S195a'
+	'Spi.ple_111S195b'
+	'Spi.ple_113S196'
+	'Spi.ple_114S197'
+	'Spi.ple_115S197'
+	'Spi.ple_117S197'
+	'Spi.ple_118S198'
+	'Spi.ple_119S198'
+	'Spi.ple_120S199'
+	'Spi.ple_121S200'
+	'Spi.ple_122S200'
+	'Spi.ple_123S200'
+	'Spi.ple_124S200'
+	'Spi.ple_125S200'
+	'Spi.ple_126S200'
+	'Spi.ple_16S52'
+	'Spi.ple_25S82'
+	'Spi.sp2_10S41'
+	'Spi.sp2_1S17'
+	'Spi.sp2_40S135'
+	'Spi.sp2_4S18'
+	'Spi.sp2_6S28'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((('Cim.pip_1SBB':1.0E-6,((('Cim.pip_18SBB':1.0E-6,((('Cim.pip_2SBB':1.0E-6,'Cim.pip_6SBB':1.0E-6):1.0E-6,'Cim.pip_11SBB':1.0E-6):1.0E-6,'Cim.pip_10SBB':1.0E-6):1.0E-6):1.0E-6,('Cim.pip_5SBB':1.0E-6,'Cim.pip_17SBB':1.0E-6):1.0E-6):1.0E-6,'Cim.pip_7SBB':0.001578):1.0E-6):0.010336,('Cim.pip_81BB':1.0E-6,(('Cim.pip_84BB':1.0E-6,('Cim.pip_73BB':1.0E-6,(('Cim.pip_79BB':1.0E-6,('Cim.pip_76BB':1.0E-6,(('Cim.pip_87BB':1.0E-6,('Cim.pip_86BB':1.0E-6,('Cim.pip_80BB':1.0E-6,(('Cim.pip_83BB':1.0E-6,(('Cim.pip_78BB':1.0E-6,'Cim.pip_74BB':1.0E-6):1.0E-6,('Cim.pip_75BB':1.0E-6,('Cim.pip_88BB':1.0E-6,'Cim.pip_85BB':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Cim.pip_82BB':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Cim.pip_104BB':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Cim.pip_77BB':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Cim.pip_103BB':1.0E-6):1.0E-6):0.014605)[&!collapse={"collapsed",0.0},!name="Cimex pipistrelli"]:0.374079,('Isc.var_12F96':1.0E-6,(((('Isc.var_2F85':1.0E-6,'Isc.var_8F91':0.00162):1.0E-6,'Isc.var_11F96':0.001619):1.0E-6,(('Isc.var_13F96':1.0E-6,'Isc.var_5F88':1.0E-6):1.0E-6,('Isc.var_9F93':1.0E-6,('Isc.var_10F94':1.0E-6,('Isc.var_7F90':1.0E-6,'Isc.var_6F89':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,(('Isc.var_14F137':1.0E-6,'Isc.var_3F85':0.001651):0.011585,('Isc.var_1F40':0.001624,('Isc.var_15F140':1.0E-6,'Isc.var_4F86':1.0E-6):1.0E-6):1.0E-6):0.003253):0.001619)[&!collapse={"collapsed",0.21610100000000043},!name="Ischnopsyllus variabilis"]:0.154491):0.047717,(((((('Nyb.kol_52fCJ914156':0.001657,((('Nyb.kol_52kCJ964156':1.0E-6,'Nyb.kol_3eCJ182997':1.0E-6):1.0E-6,(('Nyb.kol_3gCJ202997':1.0E-6,'Nyb.kol_52aCJ864156':1.0E-6):1.0E-6,'Nyb.kol_3cCJ162997':1.0E-6):1.0E-6):1.0E-6,('Nyb.kol_55CJ1024158':1.0E-6,'Nyb.kol_3fCJ192997':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Nyb.kol_52dCJ894156':0.001716):0.0031,'Nyb.kol_GTHU152':0.035425):0.041722,((('Nyb.sch_GTHU517.3.A':1.0E-6,'Nyb.sch_66CJ1204169':1.0E-6):1.0E-6,('Nyb.sch_GTHU106':0.001669,((((('Nyb.sch_72CJ1264175':1.0E-6,((((('Nyb.sch_178aCJ2804443':1.0E-6,'Nyb.sch_GTHU517.3.E':1.0E-6):1.0E-6,'Nyb.sch_GT070917.02':1.0E-6):1.0E-6,('Nyb.sch_199a_101207':1.0E-6,'Nyb.sch_199_101207':1.0E-6):1.0E-6):1.0E-6,'Nyb.sch_GT090713.02A':1.0E-6):1.0E-6,(('Nyb.sch_GT090713.02B':1.0E-6,(('Nyb.sch_64CJ1174167':1.0E-6,'Nyb.sch_145CJ2364354':1.0E-6):1.0E-6,'Nyb.sch_41CJ653751':1.0E-6):1.0E-6):1.0E-6,('Nyb.sch_89aCJ1604283':1.0E-6,('Nyb.sch_GTHU104.2.G':1.0E-6,(((('Nyb.sch_138CJ2274345':1.0E-6,'Nyb.sch_72aCJ1274175':1.0E-6):1.0E-6,('Nyb.sch_31CJ533737':1.0E-6,('Nyb.sch_GTHU105.2.B':1.0E-6,'Nyb.sch_GTHU119.2':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Nyb.sch_150CJ2414361':1.0E-6):1.0E-6,(((('Nyb.sch_201_101209':1.0E-6,'Nyb.sch_124CJ2074328':1.0E-6):1.0E-6,'Nyb.sch_151CJ2424364':1.0E-6):1.0E-6,'Nyb.sch_42aCJ683753':1.0E-6):0.001668,'Nyb.sch_132aCJ2204338':0.00167):1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,('Nyb.sch_71CJ1254174':1.0E-6,'Nyb.sch_GTHU119.3':1.0E-6):1.0E-6):1.0E-6,(('Nyb.sch_171CJ2704390':1.0E-6,('Nyb.sch_162CJ2574379':1.0E-6,(('Nyb.sch_GT090808.06.2':1.0E-6,'Nyb.sch_148CJ2394358':1.0E-6):1.0E-6,(('Nyb.sch_189CJ2964452':1.0E-6,('Nyb.sch_40aCJ633750':1.0E-6,'Nyb.sch_109CJ1864312':1.0E-6):1.0E-6):1.0E-6,'Nyb.sch_64aCJ1184167':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,(('Nyb.sch_GT080730.02':1.0E-6,'Nyb.sch_65CJ1194168':1.0E-6):1.0E-6,(('Nyb.sch_73CJ1284179':1.0E-6,'Nyb.sch_118CJ1964321':1.0E-6):1.0E-6,'Nyb.sch_44CJ723757':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,((('Nyb.sch_197_101205':1.0E-6,(('Nyb.sch_34CJ563739':1.0E-6,('Nyb.sch_19CJ403614':1.0E-6,'Nyb.sch_44aCJ733757':1.0E-6):1.0E-6):1.0E-6,'Nyb.sch_40bCJ643750':0.001718):1.0E-6):1.0E-6,('Nyb.sch_28CJ503637':1.0E-6,'Nyb.sch_141CJ2324348':1.0E-6):1.0E-6):1.0E-6,'Nyb.sch_101CJ1774303':0.00167):1.0E-6):1.0E-6,(('Nyb.sch_179aCJ2824444':1.0E-6,('Nyb.sch_GTHU517.3.B':1.0E-6,'Nyb.sch_96CJ1704294':1.0E-6):1.0E-6):0.001711,((('Nyb.sch_179CJ2814444':0.001665,'Nyb.sch_155CJ2484371':1.0E-6):1.0E-6,'Nyb.sch_142CJ2334350':1.0E-6):1.0E-6,('Nyb.sch_149CJ2404359':1.0E-6,('Nyb.sch_101cCJ1804303':1.0E-6,'Nyb.sch_165CJ2614383':0.003351):1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6):0.001672):0.031409,(('Nyb.kol_61CJ1124165':1.0E-6,(('Nyb.kol_49aCJ814154':1.0E-6,'Nyb.kol_52bCJ874156':1.0E-6):1.0E-6,('Nyb.kol_184aCJ2884449':1.0E-6,'Nyb.kol_52cCJ884156':0.001646):0.001649):0.001886):0.04033,('Nyb.kol_212a_102082':1.0E-6,('Nyb.kol_153CJ2464367':0.001646,((('Nyb.kol_GTHU252_C':1.0E-6,(('Nyb.kol_212_102082':1.0E-6,'Nyb.kol_3BF78':1.0E-6):1.0E-6,('Nyb.kol_37BF168':1.0E-6,(((('Nyb.kol_EP099':1.0E-6,'Nyb.kol_4BF79':1.0E-6):1.0E-6,(('Nyb.kol_21BF160':1.0E-6,'Nyb.kol_38BF168':1.0E-6):1.0E-6,((('Nyb.kol_GT090814.02.B':1.0E-6,'Nyb.kol_48CJ794152':1.0E-6):1.0E-6,'Nyb.kol_6BF136':1.0E-6):1.0E-6,(((((('Nyb.kol_174CJ2744393':1.0E-6,'Nyb.kol_169CJ2684388':1.0E-6):1.0E-6,'Nyb.kol_22BF161':1.0E-6):1.0E-6,(('Nyb.kol_43BF170':1.0E-6,'Nyb.kol_46BF172':1.0E-6):1.0E-6,('Nyb.kol_36BF167':1.0E-6,'Nyb.kol_91CJ1624286':1.0E-6):1.0E-6):1.0E-6):1.0E-6,(((((('Nyb.kol_9BF136':1.0E-6,'Nyb.kol_42BF169':1.0E-6):1.0E-6,'Nyb.kol_5BF130':1.0E-6):1.0E-6,('Nyb.kol_32BF164':1.0E-6,(('Nyb.kol_1BF77':1.0E-6,(((((((('Nyb.kol_14BF142':1.0E-6,(((('Nyb.kol_97bCJ1734295':1.0E-6,'Nyb.kol_25BF161':0.001676):1.0E-6,'Nyb.kol_94aCJ1664291':1.0E-6):1.0E-6,'Nyb.kol_95CJ1674293':1.0E-6):1.0E-6,'Nyb.kol_GT090825.11':1.0E-6):1.0E-6):1.0E-6,'Nyb.kol_10BF136':1.0E-6):1.0E-6,('Nyb.kol_175CJ2754394':1.0E-6,(('Nyb.kol_31BF164':1.0E-6,'Nyb.kol_7BF136':1.0E-6):1.0E-6,'Nyb.kol_EP048_A':1.0E-6):0.001598):4.6E-5):1.0E-6,('Nyb.kol_173CJ2734392':1.0E-6,(('Nyb.kol_17BF146':1.0E-6,((('Nyb.kol_161CJ2564376':1.0E-6,'Nyb.kol_8BF136':1.0E-6):1.0E-6,'Nyb.kol_15BF144':1.0E-6):1.0E-6,'Nyb.kol_12BF136':1.0E-6):1.0E-6):1.0E-6,(('Nyb.kol_11BF136':1.0E-6,'Nyb.kol_88CJ1544282':1.0E-6):0.001644,'Nyb.kol_101aCJ1784303':0.001641):1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Nyb.kol_47BF172':1.0E-6):1.0E-6,('Nyb.kol_23BF161':1.0E-6,('Nyb.kol_44BF171':1.0E-6,'Nyb.kol_EP070_A':1.0E-6):1.0E-6):1.0E-6):1.0E-6,('Nyb.kol_EP066_A':1.0E-6,'Nyb.kol_39BF168':1.0E-6):1.0E-6):1.0E-6,'Nyb.kol_34BF166':1.0E-6):1.0E-6):1.0E-6,'Nyb.kol_35BF167':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Nyb.kol_26BF161':1.0E-6):1.0E-6,'Nyb.kol_24BF161':1.0E-6):1.0E-6,'Nyb.kol_45BF172':1.0E-6):1.0E-6):1.0E-6,('Nyb.kol_EP048_B':1.0E-6,'Nyb.kol_28BF162':1.0E-6):1.0E-6):1.0E-6,'Nyb.kol_74CJ1294182':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Nyb.kol_12BF136a':1.0E-6):1.0E-6,'Nyb.kol_27BF161':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,('Nyb.kol_97aCJ1724295':0.001641,'Nyb.kol_88bCJ1564282':0.001643):1.0E-6):1.0E-6,(('Nyb.kol_105CJ1834308':1.0E-6,'Nyb.kol_212d_102082':1.0E-6):1.0E-6,'Nyb.kol_212c_102082':1.0E-6):1.0E-6):1.0E-6):0.001648):0.011822):0.007284):0.011569):0.019993,(('Pht.bia_82CJ1444226':0.001634,(((((('Pht.bia_8CJ263583':1.0E-6,'Pht.bia_77CJ1334221':1.0E-6):1.0E-6,('Pht.bia_81aCJ1434225':1.0E-6,'Pht.bia_80bCJ1404224':1.0E-6):1.0E-6):1.0E-6,'Pht.bia_83cCJ1484227':1.0E-6):1.0E-6,('Pht.bia_211_101490':1.0E-6,'Pht.bia_80cCJ1414224':1.0E-6):1.0E-6):1.0E-6,'Pht.bia_117CJ1944320':1.0E-6):1.0E-6,(('Pht.bia_80CJ1384224':1.0E-6,'Pht.bia_12CJ313594':0.001689):1.0E-6,'Pht.bia_30CJ523644':0.001634):1.0E-6):1.0E-6):0.006123,(('Pht.bia_79aCJ1374223':1.0E-6,'Pht.bia_86CJ1514279':1.0E-6):1.0E-6,'Pht.bia_79CJ1364223':1.0E-6):4.64E-4)[&!collapse={"collapsed",0.24825400000000047},!name="Phthiridium biarticulatum"]:0.045416):0.00388,(((('Pen.duf_185aCJ2904449':1.0E-6,'Pen.duf_GT080730.01.04A':1.0E-6):0.001642,'Pen.duf_GTHU512':1.0E-6):0.033834,('Pen.con_23CJ443619':0.001734,((((('Pen.con_168aCJ2654386':1.0E-6,(('Pen.con_144CJ2354352':0.001634,('Pen.con_143CJ2344350':1.0E-6,('Pen.con_123aCJ2064325':0.00172,(('Pen.con_67CJ1214169':1.0E-6,'Pen.con_119CJ1974321':0.001719):1.0E-6,('Pen.con_134CJ2224339':1.0E-6,'Pen.con_135CJ2234340':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,('Pen.con_15bCJ363606':1.0E-6,'Pen.con_168CJ2644386':1.0E-6):1.0E-6):1.0E-6):1.0E-6,(('Pen.con_15aCJ353606':1.0E-6,('Pen.con_29CJ513639':1.0E-6,'Pen.con_25CJ473622':1.0E-6):1.0E-6):1.0E-6,'Pen.con_15CJ343606':1.0E-6):1.0E-6):1.0E-6,((('Pen.con_159CJ2544374':1.0E-6,('Pen.con_166CJ2624384':1.0E-6,'Pen.con_100CJ1764302':1.0E-6):1.0E-6):1.0E-6,('Pen.con_27CJ493636':1.0E-6,('Pen.con_190bCJ2994452':1.0E-6,('Pen.con_GTHU460_B':1.0E-6,'Pen.con_135aCJ2244340':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Pen.con_156aCJ2504371':0.001635):0.001634):0.001633,'Pen.con_39CJ613749':0.001839):1.0E-6,'Pen.con_119bCJ1994321':1.0E-6):1.0E-6):0.069009):0.021972,(('Bas.nan_53BF176':1.0E-6,(('Bas.nan_KDS15':1.0E-6,(((((('Bas.nan_51BF175':1.0E-6,'Bas.nan_50BF174':1.0E-6):0.001567,'Bas.nan_59BF180':1.0E-6):1.0E-6,'Bas.nan_54BF177':1.0E-6):1.0E-6,('Bas.nan_49BF173':1.0E-6,'Bas.nan_55BF178':1.0E-6):1.0E-6):1.0E-6,'Bas.nan_56BF179':1.0E-6):1.0E-6,('Bas.nan_58BF179':1.0E-6,'Bas.nan_52BF175':1.0E-6):0.001567):0.001569):0.003148,'Bas.nan_57BF179':1.0E-6):0.001747):0.01284,(('Bas.nan_54CJ1014157':1.0E-6,'Bas.nan_GT070824':0.006022):1.0E-6,'Bas.nan_GT090828.02':1.0E-6):0.004043):0.051144):0.012373):0.131052):0.042491,((((('Arg.ves_52T66':1.0E-6,'Arg.ves_45T66':1.0E-6):1.0E-6,'Arg.ves_44T66':1.0E-6):1.0E-6,'Arg.ves_46T66':1.0E-6):1.0E-6,(((((('Arg.ves_36T63':1.0E-6,'Arg.ves_217T205':1.0E-6):1.0E-6,'Arg.ves_274T225':1.0E-6):1.0E-6,'Arg.ves_79T70':1.0E-6):1.0E-6,(('Arg.ves_219T205':1.0E-6,'Arg.ves_220T205':1.0E-6):0.001623,((('Arg.ves_230T210':1.0E-6,((((('Arg.ves_210T202':1.0E-6,'Arg.ves_208T155':1.0E-6):1.0E-6,'Arg.ves_229T210':1.0E-6):1.0E-6,('Arg.ves_221T205':1.0E-6,'Arg.ves_232T210':1.0E-6):1.0E-6):1.0E-6,'Arg.ves_218T205':1.0E-6):1.0E-6,'Arg.ves_231T210':1.0E-6):1.0E-6):1.0E-6,('Arg.ves_233T210':1.0E-6,'Arg.ves_228T210':1.0E-6):1.0E-6):0.001624,((((((((((((((('Arg.ves_4T20':1.0E-6,('Arg.ves_8T38':1.0E-6,'Arg.ves_19T49':1.0E-6):1.0E-6):1.0E-6,(('Arg.ves_199T155':1.0E-6,'Arg.ves_206T155':1.0E-6):1.0E-6,'Arg.ves_255T220':1.0E-6):1.0E-6):1.0E-6,'Arg.ves_272T224':1.0E-6):1.0E-6,'Arg.ves_7T38':1.0E-6):1.0E-6,'Arg.ves_40T64':1.0E-6):1.0E-6,'Arg.ves_6T27':1.0E-6):1.0E-6,'Arg.ves_9T38':1.0E-6):1.0E-6,'Arg.ves_267T222':1.0E-6):1.0E-6,'Arg.ves_261T220':1.0E-6):1.0E-6,'Arg.ves_224T206':1.0E-6):1.0E-6,('Arg.ves_223T206':1.0E-6,('Arg.ves_266T222':1.0E-6,'Arg.ves_265T222':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Arg.ves_205T155':1.0E-6):1.0E-6,'Arg.ves_222T206':1.0E-6):1.0E-6,'Arg.ves_33T62':1.0E-6):1.0E-6,('Arg.ves_216T204':1.0E-6,'Arg.ves_225T207':1.0E-6):1.0E-6):1.0E-6):0.001624):1.0E-6):1.0E-6,(((('Arg.ves_211T203':1.0E-6,(('Arg.ves_63T67':1.0E-6,'Arg.ves_2T01':1.0E-6):1.0E-6,(('Arg.ves_68T68':1.0E-6,('Arg.ves_256T220':1.0E-6,('Arg.ves_39T63':1.0E-6,'Arg.ves_271T224':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Arg.ves_24T60':1.0E-6):1.0E-6):1.0E-6):1.0E-6,(((('Arg.ves_197T155':1.0E-6,(('Arg.ves_3T20':1.0E-6,(('Arg.ves_35T63':1.0E-6,(((('Arg.ves_204T155':1.0E-6,('Arg.ves_263T221':1.0E-6,((('Arg.ves_257T220':1.0E-6,('Arg.ves_259T220':1.0E-6,'Arg.ves_249TI219':1.0E-6):1.0E-6):1.0E-6,'Arg.ves_198T155':1.0E-6):1.0E-6,'Arg.ves_1T01':1.0E-6):1.0E-6):1.0E-6):1.0E-6,('Arg.ves_258T220':1.0E-6,(('Arg.ves_234T211':1.0E-6,(('Arg.ves_59T67':1.0E-6,'Arg.ves_34T63':1.0E-6):1.0E-6,(('Arg.ves_60T67':1.0E-6,'Arg.ves_269T223':1.0E-6):1.0E-6,'Arg.ves_254T220':1.0E-6):1.0E-6):1.0E-6):1.0E-6,('Arg.ves_227T209':1.0E-6,'Arg.ves_49T66':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Arg.ves_270T223':1.0E-6):1.0E-6,'Arg.ves_268T223':1.0E-6):1.0E-6):1.0E-6,('Arg.ves_260T220':1.0E-6,'Arg.ves_250TI219':1.0E-6):1.0E-6):1.0E-6):1.0E-6,(('Arg.ves_214T203':1.0E-6,(('Arg.ves_25T61':1.0E-6,'Arg.ves_10T45':1.0E-6):1.0E-6,'Arg.ves_213T203':1.0E-6):1.0E-6):1.0E-6,'Arg.ves_240T213':1.0E-6):1.0E-6):1.0E-6):1.0E-6,(('Arg.ves_41T65':1.0E-6,(('Arg.ves_251TI219':1.0E-6,((('Arg.ves_202T155':1.0E-6,'Arg.ves_212T203':1.0E-6):1.0E-6,'Arg.ves_207T155':1.0E-6):1.0E-6,'Arg.ves_22T60':1.0E-6):1.0E-6):1.0E-6,'Arg.ves_273T225':1.0E-6):1.0E-6):1.0E-6,('Arg.ves_252TI219':1.0E-6,'Arg.ves_56T67':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Arg.ves_264T221':1.0E-6):1.0E-6,'Arg.ves_262T221':1.0E-6):1.0E-6):1.0E-6,'Arg.ves_37T63':1.0E-6):1.0E-6,'Arg.ves_43T66':1.0E-6):1.0E-6):1.0E-6,'Arg.ves_215T203':0.003288):0.00325)[&!collapse={"collapsed",0.2147470000000004},!name="Argas vespertilionis"]:0.172945,('Ixo.ari_246TI217':1.0E-6,((((('Ixo.ari_209TI178':1.0E-6,'Ixo.ari_248TI218':1.0E-6):1.0E-6,'Ixo.ari_241TI214':1.0E-6):1.0E-6,'Ixo.ari_242TI214':1.0E-6):1.0E-6,('Ixo.ari_244TI216':1.0E-6,'Ixo.ari_245TI216':1.0E-6):1.0E-6):1.0E-6,('Ixo.ari_15TI47':1.0E-6,('Ixo.ari_13TI47':1.0E-6,(('Ixo.ari_16TI47':1.0E-6,((('Ixo.ari_17TI47':1.0E-6,'Ixo.ari_226TI208':1.0E-6):1.0E-6,'Ixo.ari_247TI218':1.0E-6):1.0E-6,('Ixo.ari_12TI47':1.0E-6,'Ixo.ari_243TI215':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Ixo.ari_14TI47':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6)[&!collapse={"collapsed",0.12954000000000065},!name="Ixodes ariadnae"]:0.264681):0.084678):0.07334,(((('Mac.sp3_192M141':0.001495,('Mac.sp3_231M153':1.0E-6,'Mac.sp3_25M10':0.006746):0.002139)[&!collapse={"collapsed",0.11359600000000042},!name="Macronyssidae sp. 3"]:0.226751,(('Mac.sp4_215M147':1.0E-6,('Mac.sp4_199M147':1.0E-6,'Mac.sp4_200M147':1.0E-6):1.0E-6):1.0E-6,'Mac.sp4_206M147':1.0E-6)[&!collapse={"collapsed",0.1966500000000005},!name="Macronyssidae sp. 4"]:0.152579):0.084061,(('Spi.kol_31S86':0.001883,'Spi.kol_26S83':0.001435)[&!collapse={"collapsed",0.10155200000000042},!name="Spinturnix kolenatii"]:0.152217,(((('Spi.ple_111S195b':1.0E-6,((('Spi.ple_117S197':1.0E-6,(('Spi.ple_113S196':1.0E-6,'Spi.ple_110S195':1.0E-6):1.0E-6,('Spi.ple_111S195a':1.0E-6,(('Spi.ple_115S197':1.0E-6,('Spi.ple_114S197':1.0E-6,'Spi.ple_108S195':1.0E-6):1.0E-6):1.0E-6,'Spi.ple_111S195':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,('Spi.ple_25S82':1.0E-6,(('Spi.ple_122S200':0.001591,(((('Spi.ple_121S200':1.0E-6,'Spi.ple_124S200':1.0E-6):1.0E-6,'Spi.ple_125S200':1.0E-6):1.0E-6,'Spi.ple_126S200':1.0E-6):0.001552,'Spi.ple_123S200':1.0E-6):1.0E-6):3.1E-5,'Spi.ple_109S195':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Spi.ple_16S52':0.003171):1.0E-6):0.004779,'Spi.ple_119S198':1.0E-6):1.0E-6,('Spi.ple_120S199':1.0E-6,'Spi.ple_118S198':1.0E-6):1.0E-6)[&!collapse={"collapsed",0.058170000000000555},!name="Spinturnix plecotina"]:0.133119,(('Spi.sp2_40S135':1.0E-6,('Spi.sp2_1S17':0.003054,('Spi.sp2_6S28':1.0E-6,('Spi.sp2_10S41':0.00149,'Spi.sp2_4S18':0.002992):1.0E-6):1.0E-6):0.002985)[&!collapse={"collapsed",4.440892098500626E-16},!name="Spinturnicidae sp. 2"]:0.138398,('Spi.and_105S194':1.0E-6,('Spi.and_7S29':0.004533,(('Spi.and_104S193':1.0E-6,(((((('Spi.and_68S172':1.0E-6,((('Spi.and_47S140':1.0E-6,'Spi.and_53S145':1.0E-6):0.001565,('Spi.and_48S140':1.0E-6,('Spi.and_101S191':1.0E-6,'Spi.and_50S142':1.0E-6):1.0E-6):0.001565):1.0E-6,'Spi.and_52S144':1.0E-6):1.0E-6):1.0E-6,(('Spi.and_49S141':1.0E-6,'Spi.and_83S184':1.0E-6):1.0E-6,('Spi.and_76S182':1.0E-6,'Spi.and_89S186':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'Spi.and_54S146':0.003145):0.001567,'Spi.and_79S183':1.0E-6):1.0E-6,'Spi.and_71S181':0.004738):1.0E-6,(((((('Spi.and_91S187':1.0E-6,('Spi.and_62S168':1.0E-6,'Spi.and_87S185':1.0E-6):1.0E-6):1.0E-6,'Spi.and_84S185':0.001572):1.0E-6,('Spi.and_67S172':0.004753,(('Spi.and_102S192':0.003377,(('Spi.and_32S92':1.0E-6,'Spi.and_11S44':1.0E-6):1.0E-6,'Spi.and_57S147':1.0E-6):0.003164):0.001577,'Spi.and_92S188':0.003137):0.001603):0.003161):0.001575,('Spi.and_99S191':0.001619,(((((('Spi.and_39S131':1.0E-6,'Spi.and_45S138':0.001573):1.0E-6,('Spi.and_94S188':0.001585,'Spi.and_103S193':0.001587):0.003159):0.006359,'Spi.and_96S191':1.0E-6):0.00158,('Spi.and_56S146':0.001693,('Spi.and_88S185':0.001583,'Spi.and_87S185a':0.003176):0.001587):1.0E-6):0.003158,('Spi.and_33S129':0.001569,(('Spi.and_51S143':0.004789,((('Spi.and_80S184':1.0E-6,'Spi.and_81S184':1.0E-6):1.0E-6,'Spi.and_82S184':1.0E-6):1.0E-6,('Spi.and_86S185':0.001588,'Spi.and_77S182':1.0E-6):0.001588):1.0E-6):1.0E-6,'Spi.and_17S81':0.001593):0.003851):0.005887):1.0E-6,(('Spi.and_70S177':0.003216,('Spi.and_69S177':0.001586,'Spi.and_5S19':0.001576):0.006457):0.003134,('Spi.and_85S185':0.003165,'Spi.and_42S136':0.001585):0.001587):1.0E-6):0.002373):0.002368):0.001575,'Spi.and_106S194':0.001568):1.0E-6,'Spi.and_59S164':1.0E-6):1.0E-6):0.001425):1.41E-4,('Spi.and_55S146':1.0E-6,'Spi.and_93S188':1.0E-6):0.001574):0.001818):0.001595)[&!collapse={"collapsed",0.019050000000000344},!name="Spinturnix andegavinus"]:0.098246):0.054804):0.056411):0.177641):0.038461,('Mac.sp2_60M19':0.230077,('Mac.sp1_55M18':0.002948,'Mac.sp1_117M39':0.003746)[&!collapse={"collapsed",0.2041250000000004},!name="Macronyssidae sp. 1"]:0.136693):0.12719):0.080494);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=14;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=200;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=14;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=20.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=24;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
