@@ -4,5 +4,5 @@ Files from McKee et al (2019) Front Ecol Evol - Host phylogeny, geographic overl
 
 Shape files for bat geographic ranges are available from IUCN at [https://www.iucnredlist.org/resources/spatial-data-download](https://www.iucnredlist.org/resources/spatial-data-download).
 
-Additional large files available by request by email ([clifton.mckee@gmail.com](mailto: clifton.mckee@gmail.com)):
+Additional large files available by request by email [clifton.mckee@gmail.com](mailto: clifton.mckee@gmail.com):
 '2_Eurobats_strict_IBD-SAMP.trees.txt'
