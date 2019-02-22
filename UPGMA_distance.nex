@@ -1,0 +1,55 @@
+#NEXUS
+[R-package APE, Fri Feb 22 13:09:24 2019]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 21;
+	TAXLABELS
+		Ept.nil
+		Ept.ser
+		Min.sch
+		Myo.bec
+		Myo.bly
+		Myo.cap
+		Myo.das
+		Myo.dau
+		Myo.ema
+		Myo.myo
+		Myo.mys
+		Myo.nat
+		Nyc.noc
+		Pip.nat
+		Pip.pip
+		Pip.pyg
+		Ple.aur
+		Rhi.bla
+		Rhi.eur
+		Rhi.fer
+		Rhi.meh
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Ept.nil,
+		2	Ept.ser,
+		3	Min.sch,
+		4	Myo.bec,
+		5	Myo.bly,
+		6	Myo.cap,
+		7	Myo.das,
+		8	Myo.dau,
+		9	Myo.ema,
+		10	Myo.myo,
+		11	Myo.mys,
+		12	Myo.nat,
+		13	Nyc.noc,
+		14	Pip.nat,
+		15	Pip.pip,
+		16	Pip.pyg,
+		17	Ple.aur,
+		18	Rhi.bla,
+		19	Rhi.eur,
+		20	Rhi.fer,
+		21	Rhi.meh
+	;
+	TREE * UNTITLED = [&R] ((8:915476.3392,((1:65386.15645,7:65386.15645):633592.6045,(20:149395.6129,(5:124355.887,18:124355.887):25039.72586):549583.148):216497.5782):1233412.553,(((2:127642.2801,15:127642.2801):588369.4758,((11:194045.2928,(13:116744.0701,(14:46803.03225,17:46803.03225):69941.03785):77301.22271):292680.9015,(6:444669.5108,(12:186962.6446,16:186962.6446):257706.8662):42056.68351):229285.5616):269364.3449,(21:803529.3685,((4:57369.40451,10:57369.40451):152445.6354,(19:157291.7646,(3:83854.3975,9:83854.3975):73437.36709):52523.2753):593714.3287):181846.7322):1163512.791);
+END;
