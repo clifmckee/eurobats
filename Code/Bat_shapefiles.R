@@ -14,7 +14,7 @@ library(sp) # Version 1.3-1
 library(rgeos) # Version 0.3-28
 library(maps) # Version 3.3.0
 library(mapdata) # Version 2.3.0
-library(maptools) # Version 0.9-3
+# library(maptools) # Version 0.9-3
 library(geosphere) # Version 1.5-7
 library(ggplot2) # Version 3.0.0
 library(ggthemes) # Version 4.0.1
@@ -23,6 +23,8 @@ library(phangorn) # Version 2.4.0
 library(viridisLite) # Version 0.3.0
 library(viridis) # Version 0.5.1
 library(rgdal) # Version 1.3-4
+library(sf) # Version 1.0-14
+library(terra) # Version 1.7-39
 
 # Set working directory
 setwd('C:/Users/Clif/Dropbox/Eurobats')
@@ -31,11 +33,11 @@ setwd('C:/Users/Clif/Dropbox/Eurobats')
 sessionInfo()
 
 # Read in the shape file
-# Available from IUCN at http://www.iucnredlist.org/technical-documents/spatial-data/
+# Available from IUCN at https://www.iucnredlist.org/resources/spatial-data-download
 # readShapeSpatial() is in the 'sp' package
 # Shape files for the distributions of every terrestrial mammal in the IUCN database
-mammterr = readOGR(dsn='./Data/TERRESTRIAL_MAMMALS.shp')
-# load(file='./Data/mammterr.RData')
+# mammterr = readOGR(dsn='./Data/MAMMALS_TERRESTRIAL_ONLY/MAMMALS_TERRESTRIAL_ONLY.shp')
+load(file='./Data/MAMMALS_TERRESTRIAL_ONLY/mammterr.RData')
 summary(mammterr)
 class(mammterr)
 

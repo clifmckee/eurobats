@@ -26,27 +26,27 @@ sessionInfo()
 #     Use tol=0.0001 which is the setting for the rebuffering
 ##########################
 
-polygon.sp1 = gUnaryUnion(mammterr[19587:19594,])# Eptesicus nilssonii
-polygon.sp2 = gUnaryUnion(gSimplify(mammterr[35043:35093,], tol=0.0001))# Eptesicus serotinus
-polygon.sp3 = gUnaryUnion(mammterr[25553:25568,])# Miniopterus schreibersii
-polygon.sp4 = gUnaryUnion(mammterr[23718:23730,])# Myotis bechsteinii
-polygon.sp5 = gUnaryUnion(mammterr[41313:41392,])# Myotis blythii
-polygon.sp6 = gUnaryUnion(mammterr[18481:18518,])# Myotis capaccinii
-polygon.sp7 = gUnaryUnion(mammterr[17746:17752,])# Myotis dasycneme
-polygon.sp8 = gUnaryUnion(mammterr[13913:14114,])# Myotis daubentonii
-polygon.sp9 = gUnaryUnion(mammterr[38593:38608,])# Myotis emarginatus
-polygon.sp10 = gUnaryUnion(mammterr[28254:28258,])# Myotis myotis
-polygon.sp11 = gUnaryUnion(mammterr[29195:29256,])# Myotis mystacinus
-polygon.sp12 = gUnaryUnion(mammterr[33124:33148,])# Myotis nattereri
-polygon.sp13 = gUnaryUnion(mammterr[24898:24918,])# Nyctalus noctula
-polygon.sp14 = gUnaryUnion(mammterr[37135:37157,])# Pipistrellus nathusii
-polygon.sp15 = gUnaryUnion(mammterr[30014:30050,])# Pipistrellus pipistrellus
-polygon.sp16 = gUnaryUnion(mammterr[32948:32973,])# Pipistrellus pygmaeus
-polygon.sp17 = gUnaryUnion(mammterr[2442:2449,])#Plecotus auritus
-polygon.sp18 = gUnaryUnion(mammterr[989:1005,])#Rhinolophus blasii
-polygon.sp19 = gUnaryUnion(mammterr[4613:4626,])#Rhinolophus euryale
-polygon.sp20 = gUnaryUnion(mammterr[5629:5661,])#Rhinolophus ferrumequinum
-polygon.sp21 = gUnaryUnion(mammterr[4327:4395,])#Rhinolophus mehelyi
+polygon.sp1 = gUnaryUnion(mammterr[mammterr$binomial == allnames[1],]) # Eptesicus nilssonii
+polygon.sp2 = gUnaryUnion(gSimplify(mammterr[mammterr$binomial == allnames[2],], tol=0.0001)) # Eptesicus serotinus
+polygon.sp3 = gUnaryUnion(mammterr[mammterr$binomial == allnames[3],]) # Miniopterus schreibersii
+polygon.sp4 = gUnaryUnion(mammterr[mammterr$binomial == allnames[4],]) # Myotis bechsteinii
+polygon.sp5 = gUnaryUnion(mammterr[mammterr$binomial == allnames[5],]) # Myotis blythii
+polygon.sp6 = gUnaryUnion(mammterr[mammterr$binomial == allnames[6],]) # Myotis capaccinii
+polygon.sp7 = gUnaryUnion(mammterr[mammterr$binomial == allnames[7],]) # Myotis dasycneme
+polygon.sp8 = gUnaryUnion(mammterr[mammterr$binomial == allnames[8],]) # Myotis daubentonii
+polygon.sp9 = gUnaryUnion(mammterr[mammterr$binomial == allnames[9],]) # Myotis emarginatus
+polygon.sp10 = gUnaryUnion(mammterr[mammterr$binomial == allnames[10],]) # Myotis myotis
+polygon.sp11 = gUnaryUnion(mammterr[mammterr$binomial == allnames[11],]) # Myotis mystacinus
+polygon.sp12 = gUnaryUnion(mammterr[mammterr$binomial == allnames[12],]) # Myotis nattereri
+polygon.sp13 = gUnaryUnion(mammterr[mammterr$binomial == allnames[13],]) # Nyctalus noctula
+polygon.sp14 = gUnaryUnion(mammterr[mammterr$binomial == allnames[14],]) # Pipistrellus nathusii
+polygon.sp15 = gUnaryUnion(mammterr[mammterr$binomial == allnames[15],]) # Pipistrellus pipistrellus
+polygon.sp16 = gUnaryUnion(mammterr[mammterr$binomial == allnames[16],]) # Pipistrellus pygmaeus
+polygon.sp17 = gUnaryUnion(mammterr[mammterr$binomial == allnames[17],]) # Plecotus auritus
+polygon.sp18 = gUnaryUnion(mammterr[mammterr$binomial == allnames[18],]) # Rhinolophus blasii
+polygon.sp19 = gUnaryUnion(mammterr[mammterr$binomial == allnames[19],]) # Rhinolophus euryale
+polygon.sp20 = gUnaryUnion(mammterr[mammterr$binomial == allnames[20],]) # Rhinolophus ferrumequinum
+polygon.sp21 = gUnaryUnion(mammterr[mammterr$binomial == allnames[21],]) # Rhinolophus mehelyi
 
 # Example code if tolerance needs to be reset
 # gSimplify(mammterr[:], tol=0.0001)
